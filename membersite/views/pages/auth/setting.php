@@ -153,7 +153,7 @@
                 </tr>
             </table>
             <div class="box-btn__frm__login text-center">
-                <ul>
+                <ul style="padding: 0;">
                     <li>
                         <button class="btn  btn-frm-login bg-btn-green">利用規約</button>
                     </li>

@@ -6,34 +6,23 @@
                 <img src="<?php echo $this->setting['logo'] ?>" id="logo" alt="">
             </div>
             <h4 class="mb-4">利用規約</h4>
-            <table class="mb-3">
-                <tr >
-                    <td>
-                        <div class="mb-3">
-                            <p class="title-input-frm">メールアドレス</p>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="mb-3">
-                            <input type="email" class="form-control"  placeholder="">
-                        </div>
-                    </td>
-                </tr>
-                <tr >
-                    <td>
-                        <div class="mb-3">
-                            <p class="title-input-frm"">パスワード</p>
-                        </div>
-                    </td>
-                    <td>
-                        <div class="mb-3">
-                            <input type="email" class="form-control"  placeholder="">
-                        </div>
-                    </td>
-                </tr>
-            </table>
+
+            <div class="row mx-auto">
+                <div class="col-md-5 mb-3">
+                    <label class="title-input-frm">メールアドレス</label>
+                </div>
+                <div class="col-md-7 mb-3">
+                    <input type="email" class="form-control"  placeholder="">
+                </div>
+                <div class="col-md-5 mb-3">
+                    <label class="title-input-frm"">パスワード</label>
+                </div>
+                <div class="col-md-7 mb-3">
+                    <input type="email" class="form-control"  placeholder="">
+                </div>
+            </div>
             <div class="box-btn__frm__login">
-                <ul>
+                <ul style="padding: 0;">
                     <li>
                         <button class="btn  btn-frm-login bg-btn-green">利用規約</button>
                     </li>
