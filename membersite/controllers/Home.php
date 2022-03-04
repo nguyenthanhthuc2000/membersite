@@ -12,6 +12,13 @@ class Home extends Controller{
         ]);
 
     }
+
+    function method(){
+        $this->view('index', [
+            "Page" => "pages/method",
+        ]);
+    }
+
 // http://localhost/live/Home/Show/1/2
 
     function Show($a, $b){        

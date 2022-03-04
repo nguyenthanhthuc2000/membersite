@@ -351,6 +351,10 @@ main {
     display: block;
     width: 100%;
 }
+
+.method.dropdown-toggle::after {
+    border-top-color: #fff !important;
+}
 /*======================== RESPONSIVE =================*/
 
 @media screen and (min-width: 1024px) {

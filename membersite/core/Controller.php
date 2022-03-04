@@ -5,6 +5,7 @@ class Controller{
     public $style;
     public $category;
     public $menu;
+    public $banner;
 
     function __construct ()
     {
@@ -102,6 +103,7 @@ class Controller{
         $this->style = $this->model('SettingModel')->getStyle();
         $this->category = $this->model('CategoryModel')->getCategory();
         $this->menu = $this->model('CategoryModel')->getMenu();
+        $this->banner = $this->model('SettingModel')->getBanner();
     }
 
 }

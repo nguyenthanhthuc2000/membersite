@@ -11,6 +11,22 @@ class SettingModel {
         ];
     }
 
+    public function getBanner() {
+        $obj = [
+            [
+                'image' => 'https://coinreviews.io/wp-content/uploads/2017/10/tierion-logo-700x300.jpg',
+                'link' => 'https://coinreviews.io/wp-content/uploads/2017/10/tierion-logo-700x300.jpg',
+            ],
+            [
+                'image' => 'https://coinreviews.io/wp-content/uploads/2017/10/tierion-logo-700x300.jpg',
+                'link' => 'https://coinreviews.io/wp-content/uploads/2017/10/tierion-logo-700x300.jpg',
+            ]
+        ];
+        $object = json_decode(json_encode($obj));
+
+        return $object ;
+    }
+
     public function getStyle()
     {
         return [
