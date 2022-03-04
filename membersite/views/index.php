@@ -28,19 +28,10 @@
 
             <?php $this->layout('sidebar'); ?>
 
-            <div class="mt-3 main w-100">
+            <div class="main w-100">
                 <div class="w-100 bg_color main-w-right style-scrollbar">
 
-                    <div class="top_m-menu mb-3">
-                        <button class="btn txt_color top_m-menu-btn active">TOP</button>
-                        <button class="btn txt_color top_m-menu-btn ">男女関係</button>
-                        <button class="btn txt_color top_m-menu-btn">お金</button>
-                        <button class="btn txt_color top_m-menu-btn">勉強</button>
-                        <button class="btn txt_color top_m-menu-btn">男女関係</button>
-                        <button class="btn txt_color top_m-menu-btn">お金</button>
-                        <button class="btn txt_color top_m-menu-btn">勉強</button>
-                        <button class="btn txt_color top_m-menu-btn">お金</button>
-                    </div>
+                    <?php $this->layout('menu'); ?>
 
                     <?php $this->view($data["Page"]); ?>
 
@@ -139,6 +130,9 @@
                                         </li>
                                         <li>
                                             <a href="" class="btn btn-frm-login bg-btn-grey">利用規約</a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="btn btn-frm-login bg-btn-greys">利用規約</a>
                                         </li>
                                     </ul>
                                 </div>

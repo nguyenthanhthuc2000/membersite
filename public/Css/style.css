@@ -137,6 +137,7 @@ main {
 
 .top_m-menu {
     text-align: center;
+    padding: 5px;
 }
 
 .top_m-menu .top_m-menu-btn {
@@ -153,7 +154,6 @@ main {
 
 .top_m-menu .top_m-menu-btn.active,
 .top_m-menu .top_m-menu-btn:hover {
-    color: #08AEF4;
     position: relative;
 }
 
@@ -235,9 +235,9 @@ main {
     z-index: 4;
 }
 .sidebar aside .sidebar-list{
-    padding: 0;
-    max-height: 500px;
+    padding: 0 5px 0 0;
     overflow-y: scroll;
+    height: 100vh;
 }
 
 
@@ -245,12 +245,9 @@ main {
     padding: 7px;
     min-width: 221.49px;
 }
-.sidebar aside .sidebar-list .sidebar-item a{
-}
 
-.sidebar aside .sidebar-list .sidebar-item.active, .sidebar aside .sidebar-list .sidebar-item:hover{
-    background-color: #3D4047;
-    margin-right: 10px;
+.sidebar aside .sidebar-list .sidebar-item a{
+    display: block;
 }
 
 .form-search {
@@ -346,6 +343,13 @@ main {
 }
 .bg-btn-greys {
     background-color:#7A9496;
+}
+
+#logo{
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    width: 100%;
 }
 /*======================== RESPONSIVE =================*/
 

@@ -2,7 +2,9 @@
 class Controller{
     public $note = 1;
     public $setting;
-    public $header;
+    public $style;
+    public $category;
+    public $menu;
 
     function __construct ()
     {
@@ -98,6 +100,8 @@ class Controller{
     {
         $this->setting = $this->model('SettingModel')->getSetting();
         $this->style = $this->model('SettingModel')->getStyle();
+        $this->category = $this->model('CategoryModel')->getCategory();
+        $this->menu = $this->model('CategoryModel')->getMenu();
     }
 
 }

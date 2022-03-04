@@ -26,7 +26,7 @@
                 <i class="fa-solid fa-bars"></i>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item txt_color" href="#">新しいタブで再生</a></li>
+                <li><a class="dropdown-item " href="#">新しいタブで再生</a></li>
             </ul>
         </div>
     </div>
@@ -49,7 +49,7 @@
                 <i class="fa-solid fa-bars"></i>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item txt_color" href="#">新しいタブで再生</a></li>
+                <li><a class="dropdown-item " href="#">新しいタブで再生</a></li>
             </ul>
         </div>
     </div>
@@ -72,7 +72,7 @@
                 <i class="fa-solid fa-bars"></i>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item txt_color" href="#" >新しいタブで再生</a></li>
+                <li><a class="dropdown-item " href="#" >新しいタブで再生</a></li>
             </ul>
         </div>
     </div>
@@ -95,7 +95,7 @@
                 <i class="fa-solid fa-bars"></i>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item txt_color" href="#">新しいタブで再生</a></li>
+                <li><a class="dropdown-item " href="#">新しいタブで再生</a></li>
             </ul>
         </div>
     </div>
@@ -118,7 +118,7 @@
                 <i class="fa-solid fa-bars"></i>
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item txt_color" href="#">新しいタブで再生</a></li>
+                <li><a class="dropdown-item " href="#">新しいタブで再生</a></li>
             </ul>
         </div>
     </div>
@@ -171,7 +171,7 @@
 </div>
 <div class="row box_v" id="">
     <div class="box_v-header mb-3">
-        <h3 class="box_v-title"><i class="fa-solid fa-clock-rotate-left"></i> 過去の人気動画</h3>
+        <h3 class="box_v-title txt_color"><i class="fa-solid fa-clock-rotate-left"></i> 過去の人気動画</h3>
     </div>
     <hr class="hr-light">
     <div class="col-md-4 col-lg-3 col-6 box_v-card mb-3">

@@ -2,7 +2,7 @@
     <div class="top-header d-flex justify-content-between align-items-center mb-1">
         <div class="top-header-left">
             <div class="logo">
-                <img src="public/Image/logo.png" alt="" class="img-fluid">
+                <img src="<?php echo $this->setting['logo_header'] ?>" alt="logo" border="0" class="img-fluid">
             </div>
         </div>
         <div class="top-header-right">
@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <div class="row" class="bg_color">
+    <div class="row bg_color <?php if($this->setting['search'] == 0) echo 'd-none' ?>" >
         <form>
             <div class="input-group mb-3">
 
