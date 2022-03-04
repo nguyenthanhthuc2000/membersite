@@ -12,13 +12,14 @@
             <div class="box_v-card-body">
                 <h5 class="box_v-card-title text-split-2 txt_color" data-bs-toggle="modal" data-bs-target="#loginModal2">【FBIの質問力】テロリストの心すら変える聞き方 【FBIの質問力】テロリストの心すら変える聞き方
                 </h5>
-                <span class="box_v-card-star">
-                    <i class="fa-solid fa-star active"></i>
-                    <i class="fa-solid fa-star active"></i>
-                    <i class="fa-solid fa-star active"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                </span>
+                <div class="d-flex">
+                    <button class="box_v-card-star like">
+                        <i class="fa-solid fa-thumbs-up">&nbsp; 1</i>
+                    </button>
+                    <button class="box_v-card-star comment">
+                        <i class="fa-solid fa-message">&nbsp; 22</i>
+                    </button>
+                </div>
             </div>
         </a>
         <div class="dropdown box_v-card-btn">
@@ -34,14 +35,66 @@
         <a class="box_v-card-main" href="#">
             <img src="public/Image/image.jpg" class="box_v-card-image" alt="...">
             <div class="box_v-card-body">
-                <h5 class="box_v-card-title text-split-2 txt_color"  data-bs-toggle="modal" data-bs-target="#loginModal">【FBIの質問力】テロリス </h5>
-                <span class="box_v-card-star">
-                    <i class="fa-solid fa-star active"></i>
-                    <i class="fa-solid fa-star active"></i>
-                    <i class="fa-solid fa-star active"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                </span>
+                <h5 class="box_v-card-title text-split-2 txt_color" data-bs-toggle="modal" data-bs-target="#loginModal2">【FBIの質問力】テロリストの心すら変える聞き方 【FBIの質問力】テロリストの心すら変える聞き方
+                </h5>
+                <div class="d-flex">
+                    <button class="box_v-card-star like">
+                        <i class="fa-solid fa-thumbs-up">&nbsp; 1</i>
+                    </button>
+                    <button class="box_v-card-star comment">
+                        <i class="fa-solid fa-message">&nbsp; 22</i>
+                    </button>
+                </div>
+            </div>
+        </a>
+        <div class="dropdown box_v-card-btn">
+            <button class="" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item " href="#">新しいタブで再生</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-4 col-lg-3 col-6 box_v-card mb-3">
+        <a class="box_v-card-main" href="#">
+            <img src="public/Image/image.jpg" class="box_v-card-image" alt="...">
+            <div class="box_v-card-body">
+                <h5 class="box_v-card-title text-split-2 txt_color" data-bs-toggle="modal" data-bs-target="#loginModal2">【FBIの質問力】テロリストの心すら変える聞き方 【FBIの質問力】テロリストの心すら変える聞き方
+                </h5>
+                <div class="d-flex">
+                    <button class="box_v-card-star like">
+                        <i class="fa-solid fa-thumbs-up">&nbsp; 1</i>
+                    </button>
+                    <button class="box_v-card-star comment">
+                        <i class="fa-solid fa-message">&nbsp; 22</i>
+                    </button>
+                </div>
+            </div>
+        </a>
+        <div class="dropdown box_v-card-btn">
+            <button class="" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item " href="#">新しいタブで再生</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-4 col-lg-3 col-6 box_v-card mb-3">
+        <a class="box_v-card-main" href="#">
+            <img src="public/Image/image.jpg" class="box_v-card-image" alt="...">
+            <div class="box_v-card-body">
+                <h5 class="box_v-card-title text-split-2 txt_color" data-bs-toggle="modal" data-bs-target="#loginModal2">【FBIの質問力】テロリストの心すら変える聞き方 【FBIの質問力】テロリストの心すら変える聞き方
+                </h5>
+                <div class="d-flex">
+                    <button class="box_v-card-star like">
+                        <i class="fa-solid fa-thumbs-up">&nbsp; 1</i>
+                    </button>
+                    <button class="box_v-card-star comment">
+                        <i class="fa-solid fa-message">&nbsp; 22</i>
+                    </button>
+                </div>
             </div>
         </a>
         <div class="dropdown box_v-card-btn">
@@ -205,10 +258,6 @@
                 <h5 class="box_v-card-title text-split-2">【FBIの質問力】テロリス </h5>
                 <span class="box_v-card-star">
                     <i class="fa-solid fa-star active"></i>
-                    <i class="fa-solid fa-star active"></i>
-                    <i class="fa-solid fa-star active"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
                 </span>
             </div>
         </a>

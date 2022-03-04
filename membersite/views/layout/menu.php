@@ -7,7 +7,7 @@
             foreach($this->banner as $b) {
                 ?>
                 <div class="carousel-item <?php if($i == 0) echo 'active' ?>">
-                    <img src="<?php echo $b->image ?>" class="d-block w-100" style="height: 100px; display: block; object-fit: cover;" alt="...">
+                    <img src="<?php echo $b->image ?>" class="d-block w-100" style="height: 100px; display: block; object-fit: contain;" alt="...">
                 </div>
 
                 <?php $i++; } ?>

@@ -104,11 +104,19 @@ main {
 .box_v-card .box_v-card-star {
     position: absolute;
     bottom: 10px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    bottom: 10px;
+
+}
+.box_v-card .box_v-card-star.comment {
+    left: 70px;
 }
 
 .box_v-card .box_v-card-star i {
     color: #fff;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .box_v-card .box_v-card-title {
@@ -347,9 +355,10 @@ main {
 
 #logo{
     height: 100px;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
-    width: 100%;
+    margin: auto;
+    width: 150px;
 }
 
 .method.dropdown-toggle::after {

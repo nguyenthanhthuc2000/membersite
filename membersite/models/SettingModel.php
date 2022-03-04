@@ -5,8 +5,7 @@ class SettingModel {
     public function getSetting()
     {
         return [
-            'logo' => 'https://coinreviews.io/wp-content/uploads/2017/10/tierion-logo-700x300.jpg',
-            'logo_header' => 'https://i.ibb.co/hgqynK0/logo.png',
+            'logo' => 'https://i.ibb.co/hgqynK0/logo.png',
             'search' => 1,
         ];
     }

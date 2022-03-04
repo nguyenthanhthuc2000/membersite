@@ -17,9 +17,10 @@
     <style type="text/css">
         #logo{
             height: 100px;
-            object-fit: cover;
+            object-fit: contain;
             display: block;
-            width: 100%;
+            margin: auto;
+            width: 150px;
         }
     </style>
 </head>

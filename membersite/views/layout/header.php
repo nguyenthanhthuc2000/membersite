@@ -2,7 +2,7 @@
     <div class="top-header d-flex justify-content-between align-items-center mb-1">
         <div class="top-header-left">
             <div class="logo">
-                <img src="<?php echo $this->setting['logo_header'] ?>" alt="logo" border="0" class="img-fluid">
+                <img src="<?php echo $this->setting['logo'] ?>" alt="logo" border="0" class="img-fluid">
             </div>
         </div>
         <div class="top-header-right">
