@@ -364,6 +364,24 @@ main {
 .method.dropdown-toggle::after {
     border-top-color: #fff !important;
 }
+
+.page-item {
+    padding: 4px;
+}
+.page-link {
+    border-radius: 5px;
+    color: #fff;
+    background: #191F29;
+    border-color: #4F535C;
+}
+.page-item.active .page-link{
+    background: #4F535C;
+    border-color: #4F535C;
+}
+.page-link:hover{
+    background: #4F535C;
+    color: #fff;
+}
 /*======================== RESPONSIVE =================*/
 
 @media screen and (min-width: 1024px) {
