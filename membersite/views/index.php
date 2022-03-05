@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 
 <!--    <link rel="stylesheet" href=" --><?php //$this->getCss('style'); ?><!--">-->
-    <link rel="stylesheet" href="http://localhost/membersite/public/Css/style.css">
-    <link rel="stylesheet" href="http://localhost/membersite/public/Css/header.css">
+    <link rel="stylesheet" href="http://localhost/membersite2/public/Css/style.css">
+    <link rel="stylesheet" href="http://localhost/membersite2/public/Css/header.css">
     <?php $this->view('css.style',['style' => $this->style])  ?>
 
 </head>

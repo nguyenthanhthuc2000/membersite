@@ -32,5 +32,11 @@ class Home extends Controller{
             "SV" => $teo->SinhVien()
         ]);
     }
+
+    function contentDetail(){
+        $this->view('index', [
+            "Page" => "pages/content_detail",
+        ]);
+    }
 }
 ?>
