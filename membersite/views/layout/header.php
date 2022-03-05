@@ -1,8 +1,10 @@
 <header class=" container-fluid ">
-    <div class="top-header d-flex justify-content-between align-items-center mb-1">
+    <div class="top-header d-flex justify-content-between align-items-center ">
         <div class="top-header-left">
             <div class="logo">
-                <img src="<?php echo $this->setting['logo'] ?>" alt="logo" border="0" class="img-fluid">
+                <img src="<?php echo $this->setting['logo'] ?>" alt="logo" border="0" style="height: 55px;
+    display: block;
+    margin: auto;" class="img-fluid">
             </div>
         </div>
         <div class="top-header-right">
@@ -11,7 +13,7 @@
         </div>
     </div>
 
-    <div class="row bg_color <?php if($this->setting['search'] == 0) echo 'd-none' ?>" >
+    <div class="row bg_color mt-2 <?php if($this->setting['search'] == 0) echo 'd-none' ?>" >
         <form>
             <div class="input-group mb-3">
 

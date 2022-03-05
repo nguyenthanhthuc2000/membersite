@@ -5,7 +5,7 @@ class SettingModel {
     public function getSetting()
     {
         return [
-            'logo' => 'https://i.ibb.co/hgqynK0/logo.png',
+            'logo' => 'https://p.kindpng.com/picc/s/150-1506605_transparent-puma-logo-png-puma-fc-logo-png.png',
             'search' => 1,
         ];
     }

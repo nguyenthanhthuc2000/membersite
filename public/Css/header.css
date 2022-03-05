@@ -7,7 +7,7 @@ header .top-header .top-header-right {
 
 header .top-header .top-header-left .logo {
     width: 118px;
-    height: 52px;
+    /*height: 52px;*/
 }
 
 header .top-header .top-header-left .list-menu {
